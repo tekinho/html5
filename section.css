@@ -12,25 +12,21 @@ body{
 	color: #999;
 }
 
-header, nav, section, article, footer{
+header, nav, section, article, footer, aside{
 	display:block;
 }
 
 header h1{
 	font-size: 35px;
 	line-height: 40px;
-	padding: 20px 0; /* espaçamento */
+	padding: 20px; /* espaçamento */
 }
 
 article{
 	clear:both;
-	margin-top: 50px;
+	margin-top: 10px;
 	text-align: justify;
 
-}
-
-h1{
-	text-align: center;
 }
 
 nav ul {
@@ -74,4 +70,67 @@ section#intro{
 	background: url('outubrorosa.png') right top no-repeat #DDEEEE;
 	margin-top: 60px;
 	padding-left: 10px;
+}
+
+section#intro p{
+	padding-top: 35px
+	font-style: italic;
+	font-size: 14px;
+	width: 800px;
+	color: #34A8E0;
+} 
+
+article header h1{
+	font-size: 22px;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 20px;
+	padding: 0;
+}
+
+article{
+	width: 620px;
+	float: left;
+}
+
+article p{
+	float: left;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	width: 620px;
+}
+
+article header p{
+	font-size: 15px;
+	line-height: 30px;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+aside{
+	width: 280px;
+	float: right;
+	padding-left: 40px;
+}
+
+aside section{
+	margin-top: 35px;
+}
+
+aside section h1{
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+aside section ul li a{
+	text-decoration: none;
+	color: #43A5F9;
+
+}
+aside section ul li{
+	list-style-type: none;
+
+}
+aside section ul li a:hover{
+	text-decoration: underline;
+	color: #0024FF
 }
